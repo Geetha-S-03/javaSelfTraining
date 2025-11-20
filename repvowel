@@ -1,0 +1,27 @@
+/*Given a string S, transform it by appending the two-character sequence "av" immediately after every vowel. If two or more vowels appear consecutively, treat that consecutive run as a single vowel-group and append "av" only once after the entire run. 
+Vowels are the letters a, e, i, o, u (both lowercase and uppercase). All other characters (consonants, digits, punctuation, whitespace) remain unchanged and do not affect grouping.*/
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+       String s="hello";
+       String dum="";
+      laceVowel
+       String extra="av";
+     
+       for(int i=0;i<s.length();i++){
+           int c=1;
+           if(s.charAt(i)=='a' || s.charAt(i)=='e' || s.charAt(i)=='i' || s.charAt(i)=='o' || s.charAt(i)=='u'){
+               dum+=s.charAt(i);
+               dum+=extra;
+            
+           }
+           else{
+               dum+=s.charAt(i);
+              
+           }
+           
+         //  System.out.println(i+" "+s.charAt(i));
+       }
+       System.out.println(dum);
+    }
+}
